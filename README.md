@@ -9,7 +9,7 @@ DRCA-net(distance regression and classification with attention) is a convolution
 
 ![](newmaindiagram.png)
 
-##Visualization of network predictions overlayed on respective images
+## Visualization of network predictions overlayed on respective images
 <br/>
 
 **Classification results on PanNuke dataset**
@@ -20,7 +20,7 @@ DRCA-net(distance regression and classification with attention) is a convolution
 <br/>
 ![](quntitative_resultsInstanesegmentati.png)
 
-##Steps to run this model
+## Steps to run this model
 <br/>
 
 **Install all dependecies mentioned in the requirements text file**
