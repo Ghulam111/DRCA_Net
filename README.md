@@ -46,7 +46,7 @@ PanNuke dataset (https://warwick.ac.uk/fac/sci/dcs/research/tia/data/pannuke/) <
 Use the python scripts in the `panNukePrecprocess/` folder to process panNuke dataset. make necessary directory configurations. <br/>
 Create patches by running the file  `extract_patches/` , provide the directory paths in the script file.<br/>
 
-**training**
+**Training**
 <br/>
 
 Change hypermeters in the `opt/hover.py` file, select batch size according to your available GPU memmory.<br/>
@@ -59,7 +59,7 @@ run file `train.py` using command `python train.py --gpu="0,1"` select gpus acco
 
 run file `infer.py` after training , post process your model output by running script `process.py` <br/>
 
-finally setup directories in the `compute_stats.py` file and run this file by providing mode to --mode flag either `instance` or `type` <br/>
+finally setup directories in the `compute_stats.py` file and run this file by providing mode to `--mode` flag either `instance` or `type` <br/>
 
 For PanNuke classification calculations use file `convert.py` to create `.mat` format ground-truth masks necessary for calculation prediction performance.
 
